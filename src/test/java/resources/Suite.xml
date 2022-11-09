@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test suite" verbose="1">
+    <test name="ESPN web page log in tests">
+        <classes>
+            <class name="com.globant.ESPNWebPageLoginTests"></class>
+        </classes>
+    </test>
+    <test name="ESPN web page log out tests">
+        <classes>
+            <class name="com.globant.ESPNWebPageLogoutTests"></class>
+        </classes>
+    </test>
+    <test name="ESPN web page deactivate account tests">
+        <classes>
+            <class name="com.globant.ESPNWebPageDeactivateAccountTests"></class>
+        </classes>
+    </test>
+</suite>
