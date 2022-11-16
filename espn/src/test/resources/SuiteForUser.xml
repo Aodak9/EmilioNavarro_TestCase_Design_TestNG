@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="User actions">
+    <listeners>
+        <listener class-name="org.espn.utils.Listener"/>
+    </listeners>
+
+    <test name="ESPN basic actions test">
+        <classes>
+            <class name="org.espn.tests.UserLogin"/>
+            <class name="org.espn.tests.UserWatch"/>
+            <class name="org.espn.tests.UserLogout"/>
+        </classes>
+    </test>
+</suite>

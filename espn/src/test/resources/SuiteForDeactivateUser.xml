@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Deactivate user account">
+    <listeners>
+        <listener class-name="org.espn.utils.Listener"/>
+    </listeners>
+
+    <test name="Delete account user test">
+        <classes>
+            <class name="org.espn.tests.UserDeleteAccount"/>
+        </classes>
+    </test>
+</suite>
